@@ -1,0 +1,115 @@
+/* Place your CSS styles in this file */
+
+/* General */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    margin-top: 0%;
+    background-color: mediumseagreen;
+}
+.subHeader {
+    padding-left: 10px;
+    border-left: 3px solid black;
+    width: 100%;
+}
+.subText {
+    padding-left: 10px;
+}
+.subIMG {
+    object-fit: contain;
+    width: 5%;
+    height: auto;
+}
+.list {
+    margin-bottom: 2%;
+}
+.link {
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+/* Top Navigation */ 
+.topNAV {
+    width: 100%;
+    overflow: hidden;
+    top: 0%;
+    position: fixed;
+    z-index: 1;
+}
+.topNAV div {
+    width: 25%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    float: left;
+    text-align: center;
+}
+.topNAV div:hover {
+    color: black;
+    border-bottom: 5px solid black;
+    transition: 0.2s;
+}
+.topNAV a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.topNAV a:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+/* Home */
+.Home {
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+}
+.IMG {
+    width: 100%;
+    height: auto;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.Home:hover .overlay {
+    opacity: 1;
+    font-size: 25px;
+}
+
+/* Help */
+.numberedList ul{
+    list-style-type: square;
+    font-weight: normal;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    padding: 20px;
+    background-color: mediumseagreen;
+    border-bottom: 8px solid gray;
+    opacity: 0.8;
+}
